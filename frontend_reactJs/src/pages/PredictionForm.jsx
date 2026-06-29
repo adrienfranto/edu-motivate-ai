@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { Send } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import API_BASE_URL from '../config';
 
 const FIELDS = [
   { id: 'SX', label: '1. Sexe', options: [{val: 0, text: 'Masculin'}, {val: 1, text: 'Féminin'}] },
@@ -56,7 +57,8 @@ const PredictionForm = () => {
     setLoading(true);
     setError(null);
     try {
-      const response = await axios.post('http://127.0.0.1:8000/predict', formData);
+      // /predict accepte directement le profil et retourne la prédiction + recommandations
+      const response = await axios.post(`${API_BASE_URL}/predict`, formData);
       navigate('/result', { state: { results: response.data } });
     } catch (err) {
       console.error(err);

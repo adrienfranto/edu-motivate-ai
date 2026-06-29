@@ -75,26 +75,28 @@ const Result = () => {
         </div>
       </div>
 
-      {/* Recommandations Card */}
-      <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 transition-colors duration-300">
-        <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-2">{t('result.recommendations')}</h3>
-        <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">{t('result.reco_subtitle')}</p>
-        
-        <div className="space-y-4">
-          {results.recommendations.map((rec, index) => (
-            <div key={index} className="flex gap-4">
-              <div className="flex-shrink-0 mt-0.5">
-                <div className="w-7 h-7 bg-[#2196F3] text-white rounded-full flex items-center justify-center text-sm font-bold shadow-sm">
-                  {index + 1}
+      {/* Recommandations Card — shown only if backend returns recommendations */}
+      {results.recommendations && results.recommendations.length > 0 && (
+        <div className="bg-white dark:bg-slate-800 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-700 p-6 transition-colors duration-300">
+          <h3 className="text-xl font-bold text-slate-800 dark:text-white mb-2">{t('result.recommendations')}</h3>
+          <p className="text-sm text-slate-500 dark:text-slate-400 mb-6">{t('result.reco_subtitle')}</p>
+          
+          <div className="space-y-4">
+            {results.recommendations.map((rec, index) => (
+              <div key={index} className="flex gap-4">
+                <div className="flex-shrink-0 mt-0.5">
+                  <div className="w-7 h-7 bg-[#2196F3] text-white rounded-full flex items-center justify-center text-sm font-bold shadow-sm">
+                    {index + 1}
+                  </div>
                 </div>
+                <p className="text-slate-600 dark:text-slate-300 text-[15px] leading-relaxed">
+                  {rec.Recommandation}
+                </p>
               </div>
-              <p className="text-slate-600 dark:text-slate-300 text-[15px] leading-relaxed">
-                {rec.Recommandation}
-              </p>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
       {/* Sticky Bottom Actions */}
       <div className="fixed bottom-0 left-0 right-0 p-4 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-t border-slate-200 dark:border-slate-700 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.05)] z-40">
