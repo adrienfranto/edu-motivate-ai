@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "title_home": "Prédiction Étudiante",
+    "title_prediction": "Informations de l'Élève",
+    "title_result": "Prédiction",
+    "title_settings": "Paramètres",
+    "title_default": "Application"
+  },
+  "home": {
+    "welcome": "Bienvenue",
+    "subtitle": "Système intelligent de prédiction des résultats étudiants",
+    "connected": "Connectée",
+    "btn_start": "Commencer l'Analyse",
+    "btn_history": "Voir l'Historique"
+  },
+  "settings": {
+    "appearance": "Apparence",
+    "theme": "Thème",
+    "language": "Langue",
+    "choose_language": "Choisir la langue",
+    "configuration": "Configuration",
+    "api_url": "URL de l'API",
+    "check_conn": "Vérifier la connexion",
+    "about": "À propos",
+    "version": "Version",
+    "light": "Clair",
+    "dark": "Sombre"
+  },
+  "prediction": {
+    "encoded_val": "Valeur encodée",
+    "submit": "Soumettre",
+    "analyzing": "Analyse...",
+    "error_api": "Erreur lors de la communication avec l'API. Assurez-vous que le serveur backend est lancé."
+  },
+  "result": {
+    "admitted": "Admis",
+    "not_admitted": "Non Admis",
+    "confidence": "Confiance",
+    "probability": "Probabilité",
+    "recommendations": "Recommandations",
+    "reco_subtitle": "Suggestions pour améliorer les chances de réussite",
+    "new_prediction": "Nouvelle Prédiction",
+    "home": "Accueil"
+  }
+}

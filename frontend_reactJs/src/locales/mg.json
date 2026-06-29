@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "title_home": "Vinavina Mpianatra",
+    "title_prediction": "Mombamomba ny Mpianatra",
+    "title_result": "Vinavina",
+    "title_settings": "Fikirana",
+    "title_default": "Rindranasa"
+  },
+  "home": {
+    "welcome": "Tonga soa",
+    "subtitle": "Rafitra manan-tsaina haminany ny vokam-panadinana mpianatra",
+    "connected": "Mifandray",
+    "btn_start": "Atombohy ny famakafakana",
+    "btn_history": "Jereo ny tantara"
+  },
+  "settings": {
+    "appearance": "Endrika",
+    "theme": "Loko",
+    "language": "Fiteny",
+    "choose_language": "Misafidiana fiteny",
+    "configuration": "Fikirana",
+    "api_url": "Rohy API",
+    "check_conn": "Hamarino ny fifandraisana",
+    "about": "Mombamomba",
+    "version": "Dika",
+    "light": "Mazava",
+    "dark": "Maizina"
+  },
+  "prediction": {
+    "encoded_val": "Sanda voa-ody",
+    "submit": "Alefa",
+    "analyzing": "Famakafakana...",
+    "error_api": "Nisy olana tamin'ny API. Hamarino fa mandeha ny mpizara."
+  },
+  "result": {
+    "admitted": "Afa-panadinana",
+    "not_admitted": "Tsy afa-panadinana",
+    "confidence": "Fahatokisana",
+    "probability": "Taha",
+    "recommendations": "Torohevitra",
+    "reco_subtitle": "Soso-kevitra hanatsarana ny fahafahana afaka",
+    "new_prediction": "Vinavina vaovao",
+    "home": "Fandraisana"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "layout": {
+    "title_home": "Student Prediction",
+    "title_prediction": "Student Information",
+    "title_result": "Prediction",
+    "title_settings": "Settings",
+    "title_default": "Application"
+  },
+  "home": {
+    "welcome": "Welcome",
+    "subtitle": "Intelligent student performance prediction system",
+    "connected": "Connected",
+    "btn_start": "Start Analysis",
+    "btn_history": "View History"
+  },
+  "settings": {
+    "appearance": "Appearance",
+    "theme": "Theme",
+    "language": "Language",
+    "choose_language": "Choose language",
+    "configuration": "Configuration",
+    "api_url": "API URL",
+    "check_conn": "Check connection",
+    "about": "About",
+    "version": "Version",
+    "light": "Light",
+    "dark": "Dark"
+  },
+  "prediction": {
+    "encoded_val": "Encoded value",
+    "submit": "Submit",
+    "analyzing": "Analyzing...",
+    "error_api": "Error communicating with API. Ensure the backend server is running."
+  },
+  "result": {
+    "admitted": "Admitted",
+    "not_admitted": "Not Admitted",
+    "confidence": "Confidence",
+    "probability": "Probability",
+    "recommendations": "Recommendations",
+    "reco_subtitle": "Suggestions to improve chances of success",
+    "new_prediction": "New Prediction",
+    "home": "Home"
+  }
+}
